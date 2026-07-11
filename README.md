@@ -1,11 +1,16 @@
-### Youssef Dawoud — Cybersecurity Engineer (M.Sc.)
+### Youssef Dawoud — Applied Cryptography & Embedded Security Engineer
 
-Master's student in Cybersecurity at Politecnico di Torino, graduating December 2026.
-Thesis: security and trustworthiness assessment of middleware for Software-Defined Vehicles (AUTOSAR Adaptive, SOME/IP, ROS2).
+M.Sc. Cybersecurity candidate at Politecnico di Torino, graduating December 2026.
+
+Currently extending AgnosticSSL, a backend-agnostic OpenSSL engine that transparently
+redirects cryptographic operations into Trusted Execution Environments (OP-TEE) and
+hardware Roots of Trust (OpenTitan/RISC-V), without any changes to the calling
+application. My contribution adds elliptic-curve cryptography (ECDSA, ephemeral ECDH)
+and a ChaCha20-based RNG, extending the engine's coverage toward full TLS 1.3 support.
 
 - Teaching Assistant — Hardware & Wireless Security, Web Applications (Polito)
 - Tools: Burp Suite, radare2, pwntools
-- Focus: automotive/embedded security, ISO/SAE 21434, UNECE R155
+- Focus: applied cryptography, OpenSSL internals, TEE/Root-of-Trust integration, crypto-agility
 - Based in Turin, Italy
 
 Portfolio: https://youssef-dawoud.github.io/youssef-portfolio/
