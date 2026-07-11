@@ -1,6 +1,6 @@
 ### Youssef Dawoud — Cybersecurity Engineer (M.Sc.)
 
-Master's student in Cybersecurity at Politecnico di Torino, graduating [Sept/Dec] 2026.
+Master's student in Cybersecurity at Politecnico di Torino, graduating December 2026.
 Thesis: security and trustworthiness assessment of middleware for Software-Defined Vehicles (AUTOSAR Adaptive, SOME/IP, ROS2).
 
 - Teaching Assistant — Hardware & Wireless Security, Web Applications (Polito)
