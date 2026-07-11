@@ -1,15 +1,12 @@
-# Youssef Dawoud
-- This is Youssef Dawoud's profile
-- I’m interested in Cybersecurity and Web-deveopment
-- I’m currently learning AI and Machine learning
-- Email: youssef.dawoud@hotmail.com
-- Personal Website: https://deathpancake1.github.io/youssef-portfolio/
-- Leet Code profile: https://leetcode.com/DeathPancake1/
+### Youssef Dawoud — Cybersecurity Engineer (M.Sc.)
 
-# Bio
-I am a Cybersecurity engineering student from Egypt living in Italy Studying at Politecnico di Torino
+Master's student in Cybersecurity at Politecnico di Torino, graduating [Sept/Dec] 2026.
+Thesis: security and trustworthiness assessment of middleware for Software-Defined Vehicles (AUTOSAR Adaptive, SOME/IP, ROS2).
 
-<!---
-DeathPancake1/DeathPancake1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- Teaching Assistant — Hardware & Wireless Security, Web Applications (Polito)
+- Tools: Burp Suite, radare2, pwntools
+- Focus: automotive/embedded security, ISO/SAE 21434, UNECE R155
+- Based in Turin, Italy
+
+Portfolio: https://youssef-dawoud.github.io/youssef-portfolio/
+LinkedIn: https://www.linkedin.com/in/youssef-dawoud25/
