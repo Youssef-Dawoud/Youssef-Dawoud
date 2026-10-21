@@ -3,9 +3,11 @@
 Cybersecurity Engineering M.Sc. candidate at **Politecnico di Torino** (graduating November 2026). I work where applied cryptography meets systems security.
 
 #### What I'm working on
-**Master's thesis:** *Security and Trustworthiness Assessment of Middleware Architectures for Software-Defined Vehicles*
+**Master's thesis:** *An OpenSSL Engine for Offloading Cryptography to Trusted Hardware on Industrial Gateways*
 
-I'm extending an existing OpenSSL engine that moves an application's cryptography into a Trusted Execution Environment with zero changes to the application. My part: context and session handling, ECDSA, ephemeral ECDH and a ChaCha20-based RNG, validated with 99 byte-for-byte checks against stock OpenSSL and live TLS 1.2/1.3 handshakes. Next step: running it as an OP-TEE Trusted Application on Arm TrustZone for Eclipse S-CORE.
+I extended an existing OpenSSL engine that moves an application's cryptography into a Trusted Execution Environment with no changes to the application, and moved it onto real OP-TEE (Arm TrustZone) on an NXP i.MX7 board backed by its CAAM crypto engine. I wrote five new Trusted Applications, so TLS 1.2 and 1.3 handshakes (including X25519) run end to end in the secure world, with ECDSA/RSA keys generated and kept inside the TEE. Validated with 129 automated checks on OP-TEE 4.8 and benchmarked against plain OpenSSL and Linux's CAAM driver.
+
+**Upstream:** found a bug in OP-TEE's CAAM RSA driver that stopped it using CRT keys since 2020 (RSA-2048 signing 131 → 36 ms once fixed). Fix submitted as [OP-TEE PR #8140](https://github.com/OP-TEE/optee_os/pull/8140), with [issue #8139](https://github.com/OP-TEE/optee_os/issues/8139) reporting a related hang with CAAM black keys.
 
 #### Offensive security
 - [polito-ctf-writeups](https://github.com/Youssef-Dawoud/polito-ctf-writeups): write-ups from my master's CTF coursework (binary exploitation, web, reverse engineering)
